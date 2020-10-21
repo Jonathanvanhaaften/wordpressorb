@@ -1,7 +1,7 @@
 version: 2.1
 
 description: >
-  Creating a playground to learn Docker, wordpress with phpmyadmin, mysql and circleci. 
+  Creating a playground to learn Docker, wordpress with phpmyadmin, mysql and circleci.
   # What will your orb allow users to accomplish?
   # Descriptions should be short, simple, and informative.
 
