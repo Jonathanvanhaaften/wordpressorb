@@ -1,7 +1,5 @@
 description: >
-  # What will this job do?
-  # Descriptions should be short, simple, and clear.
-  Sample description
+  Job's still learning, any thought email jonathanvanhaaften@gmail.com
 executor: default
 parameters:
   greeting:
