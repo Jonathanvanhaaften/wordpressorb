@@ -49,7 +49,7 @@ workflows:
       # store CIRCLE_TOKEN as a project env var or Contexts resource
       # if using Contexts, add your context below
       - orb-tools/publish-dev:
-          orb-name: <orb-namespace>/<orb-name>
+          orb-name: jonathanvanhaaften/wordpressorb
           requires:
             - orb-tools/pack
 
@@ -81,12 +81,12 @@ workflows:
       # be skipped.
       # e.g. [semver:patch] will cause a patch version to be published.
       - orb-tools/dev-promote-prod-from-commit-subject:
-          orb-name: <orb-namespace>/<orb-name>
+          orb-name: jonathanvanhaaften/wordpressorb
 
           add-pr-comment: false
           fail-if-semver-not-indicated: true
           publish-version-tag: true
-          ssh-fingerprints: x
+          ssh-fingerprints: fd47ca18213d2ffed817cc841ff317e32529e51b
           requires:
             - integration-test-1
           filters:
