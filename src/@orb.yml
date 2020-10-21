@@ -9,6 +9,3 @@ description: >
 display:
   home_url: "https://www.github.com/jonathanvanhaaften/"
   source_url: "https://www.github.com/jonathanvanhaaften/wordpressorb"
-
-orbs:
-  hello: circleci/hello-build@0.0.5 # If your orb requires other orbs, you can import them like this. Otherwise remove the "orbs" stanza.
