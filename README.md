@@ -26,7 +26,7 @@ We welcome [issues](https://github.com/<org-name>/<repo-name>/issues) to and [pu
 
 To publish a new production version:
 
-- Create a PR to the `Alpha` branch with you changes. This will act as a "staging" branch.
+- Create a PR to the `Alpha` branch with your changes. This will act as a "staging" branch.
 - When ready to publish a new production version, create a PR from `Alpha` to `master`. The Git Subject should include `[semver:patch|minor|release|skip]` to indicate the type of release.
 - On merge, the release will be published to the orb registry automatically.
 
