@@ -9,7 +9,7 @@ What to do:
 
 - Make changes to your `Alpha` branch.
 - Flush out your integration test jobs
-- Merge to `master` with "`[semver:major]`" in the commit subject to publish 1.0.0 of your orb.
+- Merge to `master` with "`[semver:major]`" in they commit subject to publish 1.0.0 of your orb.
 
 ## Usage
 
